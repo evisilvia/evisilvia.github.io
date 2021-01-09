@@ -1,0 +1,225 @@
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 192dpi) {
+	.be-top-header .navbar-header .navbar-brand {
+		background-image: url("/assets/img/logo-saung.png");
+		background-size: 102px 27px;
+	}
+}
+
+.select2-container--default
+	.select2-results__option--highlighted[aria-selected] {
+	background-color: #9ac640;
+}
+
+/* @media (min-width: 992px) .col-md-7 {
+    width: 48.333333%;
+} */
+
+.col-md-7 {
+	width: 44.333333%;
+}
+
+.panel-body {
+	padding: 8px 20px 0px;
+}
+
+.be-radio-icon input[type="radio"]:checked + label {
+	border-color: #9ac600;
+	color: #9ac600;
+}
+
+.fuelux .wizard > .steps li.active {
+	color: #9ac600;
+}
+
+.fuelux .wizard > .steps li.complete {
+	background-color: #9ac600;
+	background: #9ac600;
+}
+
+.fuelux .wizard > .steps li.complete .chevron:before {
+	border-left: 14px solid #9ac600;
+}
+
+.filter-table-label {
+	white-space: nowrap;
+	margin-right: -25px;
+}
+
+.be-user-nav > li.dropdown .dropdown-menu .user-info {
+	background-color: #808080;
+}
+
+.be-top-header .be-user-nav > li.dropdown .dropdown-menu:after {
+	border-bottom-color: #808080;
+}
+
+.be-top-header .navbar-nav > li.dropdown .dropdown-menu > li > a:hover {
+	background-color: #9ac600;
+}
+
+.filter {
+	margin-top: 6px;
+}
+
+.dataTables_filter {
+	text-align: right;
+}
+
+.be-datatable-header > .col-sm-6 {
+	padding: 0;
+}
+
+.panel-border-color {
+	border-color: #fff;
+}
+
+.btn-success {
+	background-color: #9ac600;
+	border-color: #9ac600;
+}
+
+.btn-primary {
+	background-color: #9ac600;
+	border-color: #9ac600;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	background-color: #9ac600;
+	border-color: #9ac600;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	box-shadow: inset 0 2px 0 #9ac600;
+}
+
+.btn-primary:hover,
+.btn-primary.hover {
+	box-shadow: #9ac640;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+	color: #fff;
+	background-color: #9ac640;
+	border-color: transparent;
+	border-top-color: #9ac640;
+	box-shadow: inset 0 2px 0 #9ac600;
+}
+
+.be-top-header .navbar-nav > li.open > a:focus,
+.be-top-header .navbar-nav > li.open > a:active,
+.be-top-header .navbar-nav > li.open > a:hover {
+	color: #9ac600;
+}
+
+.be-top-header .navbar-nav > li > .dropdown-menu > li > a:hover {
+	background-color: #9ac600;
+}
+
+.form-control:focus {
+	border-color: #9ac600;
+}
+
+.select2-selection .select2-selection--single:focus {
+	border-color: #9ac600;
+}
+
+.be-checkbox input[type="checkbox"]:checked + label:before,
+.be-radio input[type="checkbox"]:checked + label:before,
+.be-checkbox input[type="radio"]:checked + label:before,
+.be-radio input[type="radio"]:checked + label:before {
+	color: #9ac640;
+	border-color: #9ac640;
+}
+
+.btn-default > a {
+	color: #9ac640;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #9ac600;
+	border-color: #9ac600;
+}
+
+.be-datatable-header {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+th {
+	text-align: center;
+}
+
+.be-datatable-footer {
+	background-color: white;
+	border-top: none;
+	margin: 0px -15px;
+}
+
+.tab-content {
+	margin-bottom: 0px;
+}
+
+.page-head {
+	padding: 0px 12px 0px;
+}
+
+.row {
+	/* margin-left: -15px;
+    margin-right: -15px; */
+	margin-top: 5px;
+	margin-bottom: 30px;
+	/* padding-top: inherit; */
+}
+
+.panel-body {
+	padding: 0px 18px 0px;
+}
+
+.user-info-list table {
+	width: 35%;
+	table-layout: fixed;
+}
+
+.user-info-list table tr td.item {
+	width: 50%;
+}
+
+.user-info-list table tr td {
+	padding: 17px 0;
+}
+
+.user-info-list table {
+	width: 50%;
+	table-layout: fixed;
+}
+
+.be-right-navbar {
+	background-color: #9ac600;
+}
+
+@media (max-width: 767px) {
+	.be-top-header .be-right-navbar {
+		background-color: #9ac600;
+	}
+
+	.panel {
+		margin-top: 20px;
+	}
+}
